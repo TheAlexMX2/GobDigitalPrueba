@@ -9,13 +9,14 @@
 </ul>
 
 <h3>Las rutas serán</h3>
-<b>POST</b> <p>/api/auth/login</p>
-<b>GET</b> <p/api/users</p>
-<b>GET</b> <p>/api/users/{id}</p>
-<b>POST</b> <p>/api/users</p>
-<b>PUT</b> <p>/api/users/{id}</p>
-<b>DELETE</b> <p>/api/users/{id}</p>
-
+<ul>
+    <li><b>POST</b> <p>/api/auth/login</p></li>
+    <li><b>GET</b> <p/api/users</p></li>
+    <li><b>GET</b> <p>/api/users/{id}</p></li>
+    <li><b>POST</b> <p>/api/users</p></li>
+    <li><b>PUT</b> <p>/api/users/{id}</p></li>
+    <li><b>DELETE</b> <p>/api/users/{id}</p></li>
+</ul>
 <h3>Observaciones generales</h3>
 <p>La prueba es un reto importante, que permite demostrar las habilidades obtenidas, además es precisa al area a la que se postula, considero importante continuar aprendiendo de esto para obtener resultados mejores</p>
 

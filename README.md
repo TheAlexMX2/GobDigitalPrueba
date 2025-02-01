@@ -2,8 +2,8 @@
 
 <h3> Instrucciones para desplegar el sistema </h3>
 <ul>
-    <li>Git clone https://github.com/TheAlexMX2/Gobierno-Digital.git</li>
-    <li>Git checkout develop</li>
+    <li>git clone https://github.com/TheAlexMX2/Gobierno-Digital.git</li>
+    <li>git checkout develop</li>
     <li>php artisan migrate --seed</li>
     <li>php artisan serve</li>
 </ul>

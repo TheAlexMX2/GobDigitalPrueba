@@ -15,7 +15,7 @@ class CheckRole
      */
     public function handle($request, Closure $next, $role)
     {
-        if (auth()->user()->role !== $role) {
+        if (!auth()->user()->roles->pluck('slug')->contains($role)) {
             return response()->json(['error' => 'Unauthorized'], 403);
         }
         return $next($request);
